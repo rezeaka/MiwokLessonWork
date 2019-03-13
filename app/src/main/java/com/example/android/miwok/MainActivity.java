@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    /** I found this way to open the NumbersActivity via StackOverflow */
-    public void openNumbersList (View view){
-        //TODO: your code goes here!
-        Intent NumbersActivity = new Intent(MainActivity.this, NumbersActivity.class);
-//        myIntent.putExtra("key", value);//    <-- optional parameters
-        MainActivity.this.startActivity(NumbersActivity);
-    }
+//    /** I found this way to open the NumbersActivity via StackOverflow */
+//    public void openNumbersList (View view){
+//        //TODO: your code goes here!
+//        Intent NumbersActivity = new Intent(MainActivity.this, NumbersActivity.class);
+////        myIntent.putExtra("key", value);//    <-- optional parameters
+//        MainActivity.this.startActivity(NumbersActivity);
+//    }
 
 }
